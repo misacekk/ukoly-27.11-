@@ -8,15 +8,15 @@ class AutoApp {
         while (true) {
             a.stav();
             System.out.println("Zadej příkaz:");
-            String cmd = sc.nextLine().toLowerCase();
+            String prikaz = sc.nextLine().toLowerCase();
 
             try {
-                if (cmd.equals("zapni motor")) a.nastartovat();
-                else if (cmd.equals("vypni motor")) a.vypnoutMotor();
-                else if (cmd.equals("zapni pásy")) a.zapnoutPasy();
-                else if (cmd.equals("vypni pásy")) a.vypnoutPasy();
-                else if (cmd.startsWith("zrychli o ")) a.zrychlit(Integer.parseInt(cmd.substring(10)));
-                else if (cmd.startsWith("zpomal o ")) a.zpomalit(Integer.parseInt(cmd.substring(10)));
+                if (prikaz.equals("zapni motor")) a.nastartovat();
+                else if (prikaz.equals("vypni motor")) a.vypnoutMotor();
+                else if (prikaz.equals("zapni pásy")) a.zapnoutPasy();
+                else if (prikaz.equals("vypni pásy")) a.vypnoutPasy();
+                else if (prikaz.startsWith("zrychli o ")) a.zrychlit(Integer.parseInt(prikaz.substring(10)));
+                else if (prikaz.startsWith("zpomal o ")) a.zpomalit(Integer.parseInt(prikaz.substring(10)));
                 else System.out.println("Neznámý příkaz.");
 
             } catch (Exception e) {
