@@ -6,7 +6,7 @@ public class Main {
 
         //Úkol 1 (Testování)
 
-        long start = System.currentTimeMillis();
+        /*long start = System.currentTimeMillis();
         String řetězec = "";
         for (int i = 0; i < 1000; i++) {
             řetězec += "x";
@@ -21,16 +21,20 @@ public class Main {
         }
         end = System.currentTimeMillis();
         System.out.println("StringBuffer čas: " + (end - start) + " milisekund");
-        System.out.println("-----------------------------------------------------");
+        System.out.println("-----------------------------------------------------");*/
 
         //Úkol 2 (Rezervace)
-        System.out.println("Zadej větu");
+        /*System.out.println("Zadej větu");
+        String veta1 = sc.nextLine(); throw new IllegalArgumentException();
+        if (veta1.equals("")) {
+            System.out.println("Věta je prázdná");
+        }*/
 
 
         //Úkol 3 (Slovní fotbal)
 
         //Úkol 4 (Analýza textu)
-        String veta = "Ahoj Pepo dnes je hezký den. Je ti 15 let a měříš 178 cm a tvoje oblíbené číslo je 6.";
+        /*String veta = "Ahoj Pepo dnes je hezký den. Je ti 15 let a měříš 178 cm a tvoje oblíbené číslo je 6.";
         int pocetPismen = 0;
         int pocetMal = 0;
         int pocetVel = 0;
@@ -74,7 +78,7 @@ public class Main {
         System.out.println("-----------------------------------------------------");
 
 
-        //Úkol 5 (Třída auto)
+        //Úkol 5 (Třída auto)*/
 
     }
 }
